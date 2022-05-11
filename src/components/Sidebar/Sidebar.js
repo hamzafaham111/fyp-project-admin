@@ -28,8 +28,7 @@ const Sidebar = () => {
                 {
                     sideManueItems.map((val) => {
                         return (
-
-                            <Link to={val.link} className='link'> <span>{val.icon}</span> <li className='sidebar-item'>{val.icon} {val.name}</li></Link>
+                            <Link to={val.link} className='link'> <li className='sidebar-item'>{val.icon} {val.name}</li></Link>
                         )
                     })
                 }
