@@ -9,11 +9,17 @@
 .sidebar-item {
   color: white;
   border-bottom: solid rgb(102, 6, 192) 1px;
-  text-align: center;
-  padding: 15px 0;
+  padding: 15px 0 15px 15px;
   font-weight: 500;
   cursor: pointer;
   font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.slidebar-item-icon {
+  margin-right: 7px;
 }
 .sidebar-item:hover {
   background-color: rgb(152, 53, 245);

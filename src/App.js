@@ -8,7 +8,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path='/' element={<Auth />} />
-          <Route path='/master' element={<Master />} />
+          <Route path='/master/' element={<Master />} />
         </Routes>
       </div>
     </BrowserRouter>
