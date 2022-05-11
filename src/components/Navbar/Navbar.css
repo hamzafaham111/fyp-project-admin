@@ -1,0 +1,18 @@
+.nav-root {
+  background-color: blueviolet;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.logo {
+  font-size: 30px;
+  color: white;
+}
+.user-profile {
+  font-size: 20px;
+  color: white;
+}

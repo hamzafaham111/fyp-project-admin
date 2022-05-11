@@ -1,0 +1,20 @@
+.sidebar-root {
+  background-color: blueviolet;
+  width: 10vw;
+  height: 100vh;
+}
+.link {
+  text-decoration: none;
+}
+.sidebar-item {
+  color: white;
+  border-bottom: solid rgb(102, 6, 192) 1px;
+  text-align: center;
+  padding: 15px 0;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 20px;
+}
+.sidebar-item:hover {
+  background-color: rgb(152, 53, 245);
+}
